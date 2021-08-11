@@ -10,13 +10,12 @@
 		var ads_time = setInterval( () => {
 		if (timeleft <= 0) {
 			clearInterval(ads_time);
-			window.location.href = "https://m.facebook.com";
+			alert("Thanks for your click");
 		}
 		document.getElementById("ongoing").value= 5 - timeleft;
 		timeleft = timeleft - 1;
 	},500 );
 	} )
-                alert("Thanks for your click")
 	</script>
 </head>
 
